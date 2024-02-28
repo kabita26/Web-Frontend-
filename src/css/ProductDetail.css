@@ -1,0 +1,57 @@
+/* ProductDetail.css */
+
+.product-details-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.product-details-image {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.product-details {
+    padding: 20px;
+}
+
+.product-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-details p {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.comment-box {
+    margin-top: 20px;
+}
+
+.comment-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.comment-box input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment-box button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.comment-section {
+    margin-top: 20px;
+}
+
+.comment-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;}

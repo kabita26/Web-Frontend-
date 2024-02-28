@@ -1,0 +1,78 @@
+/* Manage.css */
+
+/* Apply a flex layout to the whole page */
+.page-container {
+    display: flex;
+    height: calc(100vh - 60px); /* Adjust height considering the height of the navbar */
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 20vw; /* Set the width to 20% of the viewport */
+    background-color: #100f0f; /* Sidebar background color */
+    position: fixed; /* Fix the sidebar position */
+    bottom: 0; /* Anchor the bottom of the sidebar */
+    overflow-y: auto;
+}
+
+/* Content styling */
+.content {
+    flex-grow: 1; /* Allow the content to grow and occupy remaining space */
+    padding: 20px; /* Add padding for better spacing */
+    width: 80vw; /* Set the width to occupy 80% of the viewport */
+    margin-left: 20vw; /* Adjust margin to keep content beside the sidebar */
+}
+
+/* Product list styling */
+.product-list {
+    display: flex;
+    flex-wrap: wrap; /* Allow products to wrap to the next line if necessary */
+    gap: 10px;
+    width: 100%; /* Occupy the full width of the content area */
+}
+
+/* Product card styling */
+.product-card {
+    width: calc(33.33% - 20px); /* Adjust width to fit three products in a row with gap */
+    border: 1px solid #ddd; /* Add border for product card */
+    padding: 10px; /* Add padding for better spacing */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.product-card:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add box shadow on hover for better visual effect */
+}
+
+/* Product image styling */
+.product-image img {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Product info styling */
+.product-info {
+    text-align: center; /* Center align product info */
+}
+
+.product-title {
+    margin-top: 5px; /* Add margin for spacing */
+}
+
+.product-price {
+    color: #555; /* Adjust text color for price */
+}
+
+/* Button styling */
+button {
+    background-color: #de1534; /* Button background color */
+    color: #de1534; /* Button text color */
+    padding: 8px 15px; /* Add padding for better button size */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Add pointer cursor on hover */
+    margin-top: 10px; /* Add margin for spacing */
+}
+
+button:hover {
+    background-color: #de1534; /* Change background color on hover */
+}

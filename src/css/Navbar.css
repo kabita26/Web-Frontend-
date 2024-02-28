@@ -1,0 +1,64 @@
+/* Navbar.css */
+
+header {
+    background-color: #2d2020;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo-flex {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    flex: 1;
+}
+
+.Name {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.navlist {
+    display: flex;
+    gap: 10px; /* Increase the gap between links for better spacing */
+    text-align: center;
+    flex-wrap: wrap;
+    margin-right: 5%/* Allow items to wrap to the next line */
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px; /* Add some space between links */
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .navlist {
+        justify-content: center; /* Center align items on smaller screens */
+    }
+
+    .Name {
+        margin-right: 0; /* Remove margin on smaller screens */
+    }
+
+    .nav-link {
+        margin: 5px; /* Add space around each link */
+    }
+}

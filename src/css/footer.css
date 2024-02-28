@@ -1,0 +1,52 @@
+.footer-main {
+    background-color: #162938;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-titles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-titles > div {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-titles h5 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-titles a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.support p {
+    margin: 5px 0;
+}
+
+.payment-copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.payment-options h6 {
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+.payment-options img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.copyright i {
+    font-size: 0.8em;
+}

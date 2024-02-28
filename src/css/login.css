@@ -1,0 +1,130 @@
+.main-login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    z-index: 0;
+}
+
+.leftcontent_login {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.leftcontent_login img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wrapper {
+    max-width: 400px;
+    width: 90%; /* Adjusted for responsiveness */
+    padding: 20px;
+    background: rgba(0, 128, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    position: relative;
+    margin: 0 auto; /* Center the wrapper */
+    border: 2px solid white;    box-sizing: border-box; /* Include padding and border in the element's total width */
+
+}
+
+.form-box {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+.form-box h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #ccc;
+}
+
+.input-box input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    padding-left: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #008000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:disabled {
+    background: #005700;
+}
+
+.register p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.register p .Login-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.register p .Login-link:hover {
+    text-decoration: underline;
+}
+
+/*.logout-dropdown {*/
+/*    text-align: center;*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*.logout-dropdown button {*/
+/*    padding: 8px 20px;*/
+/*    background-color: #ff0000;*/
+/*    color: #333;*/
+/*    border: none;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.logout-dropdown button:hover {*/
+/*    background-color: #cc0000;*/
+/*}*/
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 90%; /* Adjusted for responsiveness */
+    }
+}
